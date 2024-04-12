@@ -17,11 +17,20 @@ print("")
 namas = ["Roy", "Rey", "Ray"]
 namas.append("Riy")  # <= otomatis var nama yang berisikan 3 data akan menjadi 4 data
 print(namas)
+
 print("")
+
 namas.remove("Roy")  # ketika kita buat seperti ini otomatis data nya akan berubah dan otomatis
 # data Roy dari var namas akan terhapus ketika kita memanggil ulang var nya
 print(namas)
+
 print("")
+
 namas[1] = "Royhan"  # <= otomatis data Ray yang sekarang terganti posisi menjadi 1 akan berubah menjadi
 # Royhan.
 print(namas)
+
+print("")
+
+len(namas) # <= ini untuk menghitung berapa banyak data dalam list namas tersebut
+# di pythob tidak menggunakan .length tetapi menggunakan len(nama_array / nama_list)
