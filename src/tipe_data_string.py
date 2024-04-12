@@ -8,6 +8,7 @@ umur = 12
 
 # contoh penggunaan string templates di bahasa pemograman phyton.
 # f akan otomatis kepanggil ketika kita memanggil {} <= variabel ke dalam string.
+# f = format
 print(f"Nama saya adalah {nama}\nAlamat Saya di {alamat}\nUmur Saya adalah {umur}")
 
 
