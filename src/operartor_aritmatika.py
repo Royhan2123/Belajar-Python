@@ -19,3 +19,7 @@ print(a / b)
 
 # Sisa Bagi
 print(a % b)
+
+# Operator predence
+ # digunakan untuk membuat sebuah aturan perpangkat menjadi 10 pangkat 2 dengan = **    
+print(10 ** 2)

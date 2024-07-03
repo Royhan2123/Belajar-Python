@@ -13,3 +13,4 @@ print("Silhakan masukkan jurusan anda : ")
 jurusan = input()
 
 print(f"Hello {nama}, Welcome to phycarm\nAddres {alamat}\nJurusan Anda {jurusan}")
+

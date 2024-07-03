@@ -10,6 +10,7 @@ print("Masukkan Angka kedua : ")
 dua = int(input())
 print("")
 
+
 print("Masukkan Angka ketiga : ")
 ketiga = int(input())
 print("")
@@ -19,3 +20,5 @@ total = satu + dua * ketiga
 
 # lalu kita panggil disini dengan menggunakan string templates
 print(f"Hasil dari pertambahan {satu} + {dua} x {ketiga} adalah : {total}")
+
+
