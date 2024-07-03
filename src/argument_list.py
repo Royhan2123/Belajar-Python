@@ -19,6 +19,13 @@ print("")
 # lalu bagaimana ketika kita langsung menggunakan list di dalam paramter tersebut ???
 # contoh nya di bawah ini :
 def jumlahkanList(*list_angka):  # kita membuat sebuah paramter yang bernama list_angka
+    # jika kita ingin menambahkan parameter baru lagi ke dalam function jumlahkanList() tersebut.
+    # kita harus menaruh list paramter tersebut di paling belakang.
+    # contoh :
+    # def jumlahkanList(NEW_PARAMETER,*list_angka) <- seperti itu.
+    # dan list paramter hanya bisa di pakai satu kali, jika lebih dari satu
+    # maka akan menyebabkan ERROR.
+
     total = 0
     for angka in list_angka:
         total = total + angka
